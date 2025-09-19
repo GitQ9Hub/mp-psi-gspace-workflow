@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Integrated Materials Metadata Schema",
+  "description": "Schema for merged metadata from Materials Project, NASA PSI, and G-Space",
+  "type": "object",
+  "properties": {
+    "material": {
+      "type": "string",
+      "description": "Material composition or alloy name (e.g., Pb-Sn, Sn-Ag-Cu)"
+    },
+    "temperature": {
+      "type": "number",
+      "description": "Temperature in Kelvin"
+    },
+    "source": {
+      "type": "string",
+      "enum": ["Materials Project", "NASA PSI", "G-Space"],
+      "description": "Origin of the metadata entry"
+    },
+    "experiment_id": {
+      "type": "string",
+      "description": "Unique identifier for PSI or G-Space experiment (if available)"
+    },
+    "grain_size": {
+      "type": "number",
+      "description": "Average grain size in micrometers (optional)"
+    },
+    "phase": {
+      "type": "string",
+      "description": "Observed or predicted phase (e.g., solid, liquid, eutectic)"
+    },
+    "simulation_model": {
+      "type": "string",
+      "description": "Model used in G-Space simulation (e.g., ATOM™, ML-based)"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Date and time of data generation or download"
+    }
+  },
+  "required": ["material", "temperature", "source"],
+  "additionalProperties": false
+}
