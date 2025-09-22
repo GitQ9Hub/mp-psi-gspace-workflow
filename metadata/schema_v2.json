@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MP × PSI Metadata Schema",
+  "description": "Schema for merged metadata from Materials Project and NASA PSI",
+  "type": "object",
+  "properties": {
+    "material_name": { "type": "string" },
+    "composition": { "type": "string" },
+    "structure_type": { "type": "string" },
+    "source": { "type": "string", "enum": ["Materials Project", "NASA PSI"] },
+    "experiment_type": { "type": "string" },
+    "temperature": { "type": "number" },
+    "pressure": { "type": "number" },
+    "property_name": { "type": "string" },
+    "value": { "type": "number" },
+    "unit": { "type": "string" },
+    "uncertainty": { "type": "number" },
+    "timestamp": { "type": "string", "format": "date-time" },
+    "notes": { "type": "string" }
+  },
+  "required": ["material_name", "composition", "property_name", "value", "unit", "source"]
+}
