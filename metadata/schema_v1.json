@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Materials Project Metadata Schema",
+  "description": "Schema for metadata entries from the Materials Project only",
+  "type": "object",
+  "properties": {
+    "material": {
+      "type": "string",
+      "description": "Material composition or formula (e.g., ZrNi, Sn-Ag-Cu)"
+    },
+    "structure_type": {
+      "type": "string",
+      "description": "Crystal structure type (e.g., cubic, orthorhombic)"
+    },
+    "formation_energy": {
+      "type": "number",
+      "description": "Formation energy in electronvolts (eV)"
+    },
+    "band_gap": {
+      "type": "number",
+      "description": "Electronic band gap in electronvolts (eV)"
+    },
+    "density": {
+      "type": "number",
+      "description": "Computed density in g/cm³"
+    },
+    "temperature": {
+      "type": "number",
+      "description": "Temperature in Kelvin (optional)"
+    },
+    "source": {
+      "type": "string",
+      "enum": ["Materials Project"],
+      "description": "Origin of the metadata entry"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Date and time of data retrieval"
+    },
+    "notes": {
+      "type": "string",
+      "description": "Optional notes or annotations"
+    }
+  },
+  "required": ["material", "formation_energy", "band_gap", "source"],
+  "additionalProperties": false
+}
+
