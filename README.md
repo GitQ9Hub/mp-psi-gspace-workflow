@@ -6,6 +6,9 @@ A reproducible, open-science workflow integrating computational data from the Ma
 ---
 
 ## 📁 Folder Structure
+├── scripts/            # Python scripts for validation and mapping
+│   ├── validate_simulation.py  # Validates simulation_type in metadata
+│   └── validate_metadata.py    # Validates full metadata structure (fields, types)
 
 ---
 
@@ -15,7 +18,9 @@ A reproducible, open-science workflow integrating computational data from the Ma
 - **Schema Evolution**: YAML schema in `schemas/v2.1/` defines allowed simulation types and supports future extensibility.
 - **Validation Logic**: Python script reads metadata and checks conformity against schema—ensuring consistency and reproducibility.
 - **Integration Strategy**: Aligns MP’s DFT predictions with PSI’s experimental outputs and G-SPACE’s hybrid simulations to enable cross-validation and feature extraction.
-
+3. Run the simulation type validator:
+   ```bash
+   python scripts/validate_simulation.py
 ---
 
 ## 🚀 Getting Started
