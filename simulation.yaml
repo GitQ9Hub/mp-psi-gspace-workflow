@@ -1,32 +1,8 @@
 simulation_type:
-  enum: [ATOM, ML]
-  description: "Defines the simulation approach used—ATOM for physics-based, ML for machine learning-based."
+  enum: [ATOM, ML, PSI]
+  description: Defines the simulation approach used—ATOM for physics-based, ML for machine learning-based, PSI for NASA plasma-surface interaction modules.
 
 simulation_type_details:
-  ATOM:
-    method:
-      - DFT
-      - MD
-      - Monte Carlo
-    resolution: atomic-scale
-    input_format:
-      - POSCAR
-      - CIF
-      - XYZ
-    output_metrics:
-      - formation_energy
-      - bandgap
-      - defect_density
-
-  ML:
-    model_type:
-      - CNN
-      - Transformer
-      - Random Forest
-    training_data:
-      - microgravity images
-      - sensor logs
-    output_metrics:
-      - prediction_accuracy
-      - structure_similarity
-      - anomaly_score
+  ATOM: !include atom.yaml
+  ML: !include ml.yaml
+  PSI: !include psi.yaml

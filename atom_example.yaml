@@ -1,0 +1,11 @@
+simulation_type: ATOM
+simulation_type_details:
+  method: DFT
+  resolution: atomic-scale
+  input_format:
+    - POSCAR
+    - CIF
+  output_metrics:
+    - formation_energy
+    - bandgap
+  notes: "Density Functional Theory simulation of a layered oxide material using POSCAR input."
