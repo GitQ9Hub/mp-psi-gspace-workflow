@@ -81,3 +81,9 @@ make validate-metadata
 1. **Validate a metadata file** using the Python loader:
    ```bash
    python load_simulation_yaml.py atom_example.yaml
+### 🧪 Validate All Metadata Examples
+
+To validate all `*_example.yaml` files automatically:
+
+```bash
+make validate-all
