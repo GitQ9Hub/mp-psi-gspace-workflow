@@ -1,0 +1,13 @@
+method:
+  - DFT
+  - MD
+  - Monte Carlo
+resolution: atomic-scale
+input_format:
+  - POSCAR
+  - CIF
+  - XYZ
+output_metrics:
+  - formation_energy
+  - bandgap
+  - defect_density
