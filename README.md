@@ -30,3 +30,28 @@ A reproducible, open-science workflow integrating computational data from the Ma
    ```bash
    conda env create -f environment.yml
    conda activate mp-psi-gspace
+# 🧬 MP × PSI × G-Space Integration Workflow
+
+This project showcases a modular, reproducible workflow for integrating simulation metadata across the Materials Project, NASA PSI, and G-Space. It supports both atomic-scale (ATOM) and machine learning (ML) simulation types, with clear schema logic and scalable validation.
+
+---
+
+## 🚀 Project Goals
+
+- Align metadata standards across interdisciplinary teams
+- Enable seamless onboarding for new collaborators
+- Support conditional validation and UI generation
+- Showcase reproducible schema evolution and modular design
+
+---
+
+## 📁 Key Components
+
+```bash
+schemas/v2.1/
+├── simulation.yaml
+├── atom.yaml
+├── ml.yaml
+├── load_simulation_yaml.py
+├── Makefile
+├── environment.yml
