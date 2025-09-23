@@ -19,6 +19,14 @@ merge:
 	@echo "📊 Merging metadata from MP, PSI, and G-Space..."
 	python $(MERGE_SCRIPT)
 
+validate-all:
+	@echo "🔍 Validating all *_example.yaml files..."
+	@for file in $(shell find schemas/v2.1 -name '*_example.yaml'); do \
+		echo "🔍 Validating $$file..."; \
+		python schemas/v2.1/load_simulation_yaml.py $$file || exit 1; \
+	done
+	@echo "✅ All example files validated successfully."
+
 validate:
 	@echo "✅ Validating merged metadata against schema..."
 	python $(VALIDATE_SCRIPT)
