@@ -235,3 +235,5 @@ results/
 *.nbconvert.ipynb
 *.nb.html
 
+.ipynb_checkpoints/
+
