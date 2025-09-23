@@ -1,0 +1,17 @@
+simulation_type: PSI
+simulation_type_details:
+  method: SDTrimSP
+  input_format: INP
+  resolution: surface-scale
+  output_metrics:
+    - sputtering_yield
+    - energy_distribution
+    - flux_profile
+  materials:
+    - tungsten
+    - boron nitride
+  environment:
+    - plasma chamber
+    - microgravity
+    - cryogenic
+  notes: "Simulating ion-surface interactions under microgravity for lunar regolith analysis using SDTrimSP."
