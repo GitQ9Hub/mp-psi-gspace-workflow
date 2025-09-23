@@ -59,6 +59,14 @@ schemas/v2.1/
 ## 🧪 Sample Metadata Files
 
 This repository includes validated metadata examples for each supported simulation type. These files demonstrate how to structure metadata according to the modular schema blocks defined in `simulation.yaml`.
+## 🧪 Metadata Validation
+
+This repository includes a Makefile rule to validate all modular metadata examples using the custom YAML loader.
+
+### ✅ How to Run
+
+```bash
+make validate-metadata
 
 ### ✅ Available Examples
 
