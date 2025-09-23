@@ -55,3 +55,21 @@ schemas/v2.1/
 ├── load_simulation_yaml.py
 ├── Makefile
 ├── environment.yml
+
+## 🧪 Sample Metadata Files
+
+This repository includes validated metadata examples for each supported simulation type. These files demonstrate how to structure metadata according to the modular schema blocks defined in `simulation.yaml`.
+
+### ✅ Available Examples
+
+| File               | Simulation Type | Description |
+|--------------------|------------------|-------------|
+| `atom_example.yaml` | ATOM (Materials Project) | Atomic-scale simulation using DFT and POSCAR input |
+| `ml_example.yaml`   | ML (G-Space)             | Transformer model trained on microgravity images and sensor logs |
+| `psi_example.yaml`  | PSI (NASA)               | Plasma-surface interaction simulation using SDTrimSP |
+
+### 📥 How to Use
+
+1. **Validate a metadata file** using the Python loader:
+   ```bash
+   python load_simulation_yaml.py atom_example.yaml
