@@ -205,3 +205,33 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# Data files
+*.csv
+*.tsv
+*.xlsx
+*.json
+*.h5
+*.npz
+
+# Results and plots
+*.png
+*.jpg
+*.svg
+*.pdf
+*.log
+*.out
+*.txt
+
+# Temporary folders
+data_raw/
+data_processed/
+results/
+
+# Ignore all CSVs except curated ones
+*.csv
+!data_processed/psi_metadata.csv
+
+.ipynb_checkpoints
+*.nbconvert.ipynb
+*.nb.html
+
