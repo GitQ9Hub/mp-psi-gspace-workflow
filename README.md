@@ -7,12 +7,21 @@ A reproducible, open-science workflow integrating computational data from the Ma
 
 ## 📁 Folder Structure
 
-├── data_raw/           # Unprocessed metadata from MP, PSI, and G-Space
-├── data_processed/     # Cleaned and merged metadata files
-├── metadata/           # Schema definitions and validation logic
-├── scripts/            # Python scripts for merging and validating metadata
-├── notebooks/          # Jupyter notebooks for exploratory analysis
-├── results/            # Output files, plots, and ML predictions
-├── environment.yml     # Conda environment for reproducibility
-├── Makefile            # Automation for setup, merge, validate, and launc
-Add folder structure to README
+---
+
+## 🧠 Project Highlights
+
+- **Simulation Tagging**: Metadata files are tagged with `simulation_type: ATOM` or `simulation_type: ML` to distinguish physics-based vs. ML-based simulations.
+- **Schema Evolution**: YAML schema in `schemas/v2.1/` defines allowed simulation types and supports future extensibility.
+- **Validation Logic**: Python script reads metadata and checks conformity against schema—ensuring consistency and reproducibility.
+- **Integration Strategy**: Aligns MP’s DFT predictions with PSI’s experimental outputs and G-SPACE’s hybrid simulations to enable cross-validation and feature extraction.
+
+---
+
+## 🚀 Getting Started
+
+1. Clone the repository
+2. Activate the Conda environment:
+   ```bash
+   conda env create -f environment.yml
+   conda activate mp-psi-gspace
