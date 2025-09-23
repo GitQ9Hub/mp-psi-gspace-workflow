@@ -1,0 +1,4 @@
+simulation_type: ML
+sample_id: GSPACE_002
+model_used: CNN
+training_data: microgravity_images

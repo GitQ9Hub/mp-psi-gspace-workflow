@@ -1,0 +1,3 @@
+simulation_type:
+  enum: [ATOM, ML]
+  description: "Defines the simulation approach used—ATOM for physics-based, ML for machine learning-based."

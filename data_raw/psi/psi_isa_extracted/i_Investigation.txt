@@ -1,0 +1,137 @@
+ONTOLOGY SOURCE REFERENCE
+Term Source Name	EFO	NCIT	PSI
+Term Source File	http://data.bioontology.org/ontologies/EFO		https://psi.nasa.gov/
+Term Source Version	132		1.0
+Term Source Description	Experimental Factor Ontology		User defined terms
+INVESTIGATION
+Investigation Identifier	
+Investigation Title	
+Investigation Description	
+Investigation Submission Date	
+Investigation Public Release Date	
+INVESTIGATION PUBLICATIONS
+Investigation PubMed ID
+Investigation Publication DOI
+Investigation Publication Author List
+Investigation Publication Title
+Investigation Publication Status
+Investigation Publication Status Term Accession Number
+Investigation Publication Status Term Source REF
+INVESTIGATION CONTACTS
+Investigation Person Last Name
+Investigation Person First Name
+Investigation Person Mid Initials
+Investigation Person Email
+Investigation Person Phone
+Investigation Person Fax
+Investigation Person Address
+Investigation Person Affiliation
+Investigation Person Roles
+Investigation Person Roles Term Accession Number
+Investigation Person Roles Term Source REF
+STUDY
+Study Identifier	PSI-166
+Study Title	Unified Support for THERMOLAB - ISS, ICOPROSOL and PARSEC
+Study Description	
+Study Submission Date	06-Jan-2025
+Study Public Release Date	05-Aug-2025
+Study File Name	s_PSI-166.txt
+Comment[Acknowledgments]	
+Comment[Approach]	"• The anomalous nucleation events of interest are hypothesized to be caused by cavitation in the melt. Experiments replicated the conditions in which the nucleation events were previously observed and explored similar experimental conditions.
+• Magnetohydrodynamic modeling of fluid flow is to be used to determine the flow conditions during ISS-EML experiments. Relevant parameters include fluid velocity, shear rates, turbulence intensity, and their distribution. Such data is critical for control of experiments and input to other theoretical and modeling efforts."
+Comment[DOI]	10.60555/hsz9-cr03
+Comment[Data Source Accession]	
+Comment[Data Source Link]	
+Comment[Experiment Hardware]	International Space Station - Electromagnetic Levitator (EML)
+Comment[Experiment Hardware Link]	https://iopscience.iop.org/article/10.1088/1742-6596/327/1/012057/pdf
+Comment[Flight Platform]	International Space Station (ISS)
+Comment[Funding]	NNX10AR71G
+Comment[Hypothesis]	"• Dynamic nucleation is an effect of the fluid flow and not reliant on classical nucleation theory.
+• Thermophysical property measurements may require appropriate flow conditions, which should be quantified
+• Flow conditions may affect solidification and nucleation behavior
+• Oxygen may influence surface tension measurements in metallic melts"
+Comment[Identifiers]	
+Comment[Investigation Acronym]	EML USTIP Batch 2
+Comment[Investigation End Date]	11-15-2015
+Comment[Investigation Start Date]	09-01-2010
+Comment[Managing NASA Center]	Marshall Space Flight Center (MSFC)
+Comment[Mission End]	
+Comment[Mission Link]	
+Comment[Mission Name]	
+Comment[Mission Start]	
+Comment[Objective]	"Specific objectives of this investigation were as follows:
+   • Plan and develop experiment parameter sets to investigate anomalous nucleation events in zirconium samples during ISS-EML experiments
+   • Analyze cavitation-induced nucleation experiments on zirconium and zirconium-nickel alloys
+   • Analyze fluid flow during ISS-EML experiments to support collaborators investigations
+   • Continue flight preparations and development of experimental parameter sets for upcoming experiments in Batch 3
+   • Provide magnetohydrodynamic (MHD) modeling support of macroconvection in various materials for three ESA sponsored projects: PARSEC, THERMOLAB - ISS, ICOPROSOL."
+Comment[Project Identifier]	
+Comment[Project Link]	
+Comment[Project Title]	
+Comment[Project Type]	Microgravity Investigation
+Comment[Proposal Title]	
+Comment[Research Area]	Materials Science
+Comment[Research Impacts]	"Containerless processing provides access to the deeply undercooled region of metallic melts. Using this unique processing environement we are able to investigate fundamental solidification behaivor and meausure thermophysical properties of metallic melts including density, surface tension, viscosity, thermal expansion, heat capacity, thermal conductivity, and electrical conductivity. More specifically, impacts and benefits are broken out by the 3 associated flight experiments.
+
+In PARSEC,  the effect of fluid flow on the solidification path of certain alloys is investigated. Control of the solidification path would enable tailoring of the microstructure and properties of metal parts for specific applications.
+
+In ThermoLAB, the thermophysical properties of high-temperature materials is investigated. Many of these materials are used commercially. A better understanding of the physical properties will allow more efficient and more reliable production of metallic parts using these alloys. Other alloys are chosen because of scientific interest in their properties, which may illuminate fundamental physics related to the formation of bulk metallic glasses and quasicrystals.
+
+The nucleation and growth of quasicrystals, and the effect of atomic-scale order on the macroscopic properties of these alloys is investigated in ICOPROSOL. This fundamental investigation may improve our ability to tailor the microstructure of metals for commercial applications."
+Comment[Space Program]	NASA, ESA
+Comment[Study Grant Number]	
+Comment[SubResearch Area]	thermophysical properties, nucleation and growth
+STUDY DESIGN DESCRIPTORS
+Study Design Type	magnetohydrodynamic modeling	ISS-EML	Computational Fluid Dynamics	Metallic Melt	Thermophysical Properties	Nucleation	Viscosity Measurments	Oscillating Drop
+Study Design Type Term Accession Number	https://psi.nasa.gov/	https://psi.nasa.gov/	https://psi.nasa.gov/	https://psi.nasa.gov/	https://psi.nasa.gov/	https://psi.nasa.gov/	https://psi.nasa.gov/	https://psi.nasa.gov/
+Study Design Type Term Source REF	PSI	PSI	PSI	PSI	PSI	PSI	PSI	PSI
+STUDY PUBLICATIONS
+Study PubMed ID											34362919		36433973			37130899	
+Study Publication DOI	10.1007/s11663-014-0178-9	10.15011/jasma.32.1.320105	10.1007/s11663-015-0434-7	10.1007/s10765-014-1662-9	10.1007/s11663-013-9995-5	10.1007/s11837-012-0422-1	10.1007/s11837-012-0417-y	10.1088/1742-6596/327/1/012009	10.1088/1742-6596/327/1/012013	10.32908/hthp.v49.817	10.1038/s41526-021-00161-9	10.1088/1757-899X/1274/1/012025	10.1038/s41526-022-00238-z	10.1016/j.mtla.2022.101623	10.32908/hthp.v52.1301	10.1038/s41526-023-00281-4	10.1007/s11661-023-07080-2
+Study Publication Author List	Lee Jonghyun, Xiao Xiao, Matson Douglas M., Hyers Robert W.	J. Lee, R. Hyers	Lee Jonghyun, Rodriguez Justin E., Hyers Robert W., Matson Douglas M.	Lee J., Matson D. M.	Lee Jonghyun, Matson Douglas M., Binder Sven, Kolbe Matthias, Herlach Dieter, Hyers Robert W.	Gangopadhyay A. K., Hyers R. W., Kelton K. F.	Bojarevics Valdis, Hyers Robert W.	Matson D M, Hyers R W, Volkmann T, Fecht H -J	Hyers R, Matson D M, Kelton K F, Holland-Mortiz D, Volkmann T	BRACKER G. P., BAKER E. B., NAWER J., SELLERS M. E., GANGOPADHYAY A. K., KELTON K. F., XIAO X., LEE J., REINARTZ M., BURGGRAF S., HERLACH D. M., RETTENMAYR M., MATSON D., HYERS R. W.	Gangopadhyay AK, Sellers ME, Bracker GP, Holland-Moritz D, Van Hoesen DC, Koch S, Galenko PK, Pauls AK, Hyers RW, Kelton KF.	Bracker G P, Hyers R W	Bracker GP, Luo Y, Damaschke B, Samwer K, Hyers RW.	Bracker G.P., Schneider S., Matson D.M., Hyers R.W.	Bracker G. P., Hyers R. W.	Mohr M, Dong Y, Bracker GP, Hyers RW, Matson DM, Zboray R, Frison R, Dommann A, Neels A, Xiao X, Brillo J, Busch R, Novakovic R, Srirangam P, Fecht HJ.	Bracker Gwendolyn P., Hyers Robert W.
+Study Publication Title	Numerical Prediction of the Accessible Convection Range for an Electromagnetically Levitated Fe50Co50 Droplet in Space	Numerical Estimation of Convection in a Molten Zirconium Droplet Processed by Electromagnetic Levitation in Microgravity	Measurement of Density of Fe-Co Alloys Using Electrostatic Levitation	Prediction of Mass Evaporation of Fe50Co50 During Measurements of Thermophysical Properties Using an Electrostatic Levitator	Magnetohydrodynamic Modeling and Experimental Validation of Convection Inside Electromagnetically Levitated Co-Cu Droplets	Nucleation and Thermophysical Properties of Glass-Forming Liquids	Levitated Liquid Dynamics in Reduced Gravity and Gravity-Compensating Magnetic Fields	Phase selection in the mushy-zone:LODESTARS and ELFSTONE projects	Fluid-flow effects on phase selection and nucleation in undercooled liquid metals	The effect of flow regime on surface oscillations during electromagnetic levitation experiments	Demonstration of the effect of stirring on nucleation from experiments on the International Space Station using the ISS-EML facility.	Modeling the Fluid Flow for Recent Solidification Experiments in Microgravity Electromagnetic Levitation	Examining the influence of turbulence on viscosity measurements of molten germanium under reduced gravity.	Dynamic nucleation in sub-critically undercooled melts during electromagnetic levitation	The effects of the excitation pulse on flow in electromagnetic levitation experiments	Electromagnetic levitation containerless processing of metallic materials in microgravity: thermophysical properties.	The Transient Evolution of Flow Due to the Excitation Pulse in Oscillating Drop Experiments in Microgravity Electromagnetic Levitation
+Study Publication Status	published	published	published	published	published	published	published	published	published	published	published	published	published	published	published	published	published
+Study Publication Status Term Accession Number	http://www.ebi.ac.uk/efo/EFO_0001796	http://www.ebi.ac.uk/efo/EFO_0001796	http://www.ebi.ac.uk/efo/EFO_0001796	http://www.ebi.ac.uk/efo/EFO_0001796	http://www.ebi.ac.uk/efo/EFO_0001796	http://www.ebi.ac.uk/efo/EFO_0001796	http://www.ebi.ac.uk/efo/EFO_0001796	http://www.ebi.ac.uk/efo/EFO_0001796	http://www.ebi.ac.uk/efo/EFO_0001796	http://www.ebi.ac.uk/efo/EFO_0001796	http://www.ebi.ac.uk/efo/EFO_0001796	http://www.ebi.ac.uk/efo/EFO_0001796	http://www.ebi.ac.uk/efo/EFO_0001796	http://www.ebi.ac.uk/efo/EFO_0001796	http://www.ebi.ac.uk/efo/EFO_0001796	http://www.ebi.ac.uk/efo/EFO_0001796	http://www.ebi.ac.uk/efo/EFO_0001796
+Study Publication Status Term Source REF	EFO	EFO	EFO	EFO	EFO	EFO	EFO	EFO	EFO	EFO	EFO	EFO	EFO	EFO	EFO	EFO	EFO
+Comment[Study Publication Link]	https://doi.org/10.1007/s11663-014-0178-9	https://doi.org/10.15011/jasma.32.1.320105	https://doi.org/10.1007/s11663-015-0434-7	https://doi.org/10.1007/s10765-014-1662-9	https://doi.org/10.1007/s11663-013-9995-5	https://doi.org/10.1007/s11837-012-0422-1	https://doi.org/10.1007/s11837-012-0417-y	https://doi.org/10.1088/1742-6596/327/1/012009	https://doi.org/10.1088/1742-6596/327/1/012013	https://doi.org/10.32908/hthp.v49.817	https://www.nature.com/articles/s41526-021-00161-9.pdf	https://doi.org/10.1088/1757-899x/1274/1/012025	https://www.nature.com/articles/s41526-022-00238-z.pdf	https://doi.org/10.1016/j.mtla.2022.101623	https://doi.org/10.32908/hthp.v52.1301	https://www.nature.com/articles/s41526-023-00281-4.pdf	https://doi.org/10.1007/s11661-023-07080-2
+STUDY FACTORS
+Study Factor Name
+Study Factor Type
+Study Factor Type Term Accession Number
+Study Factor Type Term Source REF
+STUDY ASSAYS
+Study Assay File Name
+Study Assay Measurement Type
+Study Assay Measurement Type Term Accession Number
+Study Assay Measurement Type Term Source REF
+Study Assay Technology Type
+Study Assay Technology Type Term Accession Number
+Study Assay Technology Type Term Source REF
+Study Assay Technology Platform
+STUDY PROTOCOLS
+Study Protocol Name
+Study Protocol Type
+Study Protocol Type Term Accession Number
+Study Protocol Type Term Source REF
+Study Protocol Description
+Study Protocol URI
+Study Protocol Version
+Study Protocol Parameters Name
+Study Protocol Parameters Name Term Accession Number
+Study Protocol Parameters Name Term Source REF
+Study Protocol Components Name
+Study Protocol Components Type
+Study Protocol Components Type Term Accession Number
+Study Protocol Components Type Term Source REF
+STUDY CONTACTS
+Study Person Last Name	Hyers	Hanson	Bracker
+Study Person First Name	Robert	Ian	Gwendolyn
+Study Person Mid Initials			
+Study Person Email	rwhyers@wpi.edu	Ian.m.hanson@nasa.gov	gbracker@wpi.edu
+Study Person Phone			
+Study Person Fax			
+Study Person Address			
+Study Person Affiliation	Worcester Polytechnic Institute (WPI)	NASA MSFC	University of Massachusetts, Amherst (Now WPI)
+Study Person Roles	Principal Investigator (PI)	Project Scientist	Co-Investigator (Co-I)
+Study Person Roles Term Accession Number	Principal Investigator (PI)	Project Scientist	Co-Investigator (Co-I)
+Study Person Roles Term Source REF			
