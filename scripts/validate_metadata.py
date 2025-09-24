@@ -7,8 +7,8 @@ from jsonschema import validate
 from pathlib import Path
 
 # Paths
-csv_path = Path("../data_processed/merged_metadata.csv")
-schema_path = Path("../metadata/schema.json")
+csv_path = "data_processed/merged_metadata.csv"
+schema_path = "json_schemas/schema_final.json"
 
 # Load schema
 with open(schema_path, "r") as f:
