@@ -25,3 +25,20 @@ This project advances interdisciplinary research in materials science and space 
 
 ```bash
 make setup
+
+## Demo Notebooks for nanoHUB Onboarding
+
+This repository includes two annotated notebooks that simulate metadata normalization and integration using fictitious examples. They are designed to help new contributors understand the modular pipeline and reproducibility goals of the project.
+
+### `psi166_demo_upload.ipynb`
+- Parses a mock PSI-166 ISA-Tab metadata file
+- Normalizes key fields into a modular dictionary
+- Validates required fields for downstream compatibility
+- Saves structured output to `normalized_psi166.yaml`
+
+### `metadata_merge_demo.ipynb`
+- Loads metadata from PSI, Materials Project (MP), and G-Space
+- Merges sources with provenance-tagged keys
+- Validates merged structure and exports to `merged_metadata_demo.yaml`
+
+These notebooks illustrate how metadata from diverse sources can be harmonized using modular logic, YAML formatting, and reproducible workflows. All examples use fictitious data for demonstration purposes.
