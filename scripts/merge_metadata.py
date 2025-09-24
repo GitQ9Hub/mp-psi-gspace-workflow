@@ -3,9 +3,9 @@ import os
 
 # Define input files
 input_files = [
-    "data_raw/mp_metadata.csv",
-    "data_raw/psi_metadata.csv",
-    "data_raw/gspace_metadata.csv"
+    "data_normalized/mp_normalized.csv",
+    "data_normalized/psi_normalized.csv",
+    "data_normalized/gspace_normalized.csv"
 ]
 
 dfs = []

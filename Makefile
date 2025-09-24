@@ -61,4 +61,6 @@ validate-metadata:
 	@echo "🔍 Validating psi_example.yaml..."
 	@python scripts/load_simulation_yaml.py schemas/v2.1/psi_example.yaml
 	@echo "✅ All metadata examples validated successfully."
-
+normalize:
+	@echo "🧬 Normalizing metadata from MP, PSI, and G-Space..."
+	python scripts/normalize_metadata.py
