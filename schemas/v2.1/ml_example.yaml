@@ -1,0 +1,10 @@
+simulation_type: ML
+simulation_type_details:
+  model_type: Transformer
+  training_data:
+    - microgravity images
+    - sensor logs
+  output_metrics:
+    - prediction_accuracy
+    - structure_similarity
+  notes: "Transformer model trained on microgravity image sequences and sensor logs to predict structural anomalies in orbital habitats."
