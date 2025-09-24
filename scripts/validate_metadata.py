@@ -1,7 +1,3 @@
-# 📦 Required Package
-# Install jsonschema if you haven’t already:
-pip install jsonschema
-
 # Import library
 
 import pandas as pd
