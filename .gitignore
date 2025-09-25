@@ -220,7 +220,7 @@ __marimo__/
 *.pdf
 *.log
 *.out
-*.txt
+#*.txt
 
 # Temporary folders
 data_raw/
@@ -237,3 +237,12 @@ results/
 
 .ipynb_checkpoints/
 
+# Prevent recursive folder duplication
+**/schemas/schemas/
+**/schemas/*/schemas/
+**/notebooks/notebooks/
+**/notebooks/*/notebooks/
+**/metadata/metadata/
+**/metadata/*/metadata/
+**/scripts/scripts/
+**/scripts/*/scripts/

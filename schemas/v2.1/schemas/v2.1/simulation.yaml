@@ -1,8 +1,0 @@
-simulation_type:
-  enum: [ATOM, ML, PSI]
-  description: Defines the simulation approach used—ATOM for physics-based, ML for machine learning-based, PSI for NASA plasma-surface interaction modules.
-
-simulation_type_details:
-  ATOM: !include atom.yaml
-  ML: !include ml.yaml
-  PSI: !include psi.yaml

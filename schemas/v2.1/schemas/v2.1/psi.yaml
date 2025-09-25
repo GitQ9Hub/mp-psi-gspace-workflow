@@ -1,7 +1,0 @@
-method: [SPICE, SDTrimSP, COMSOL]
-input_format: [DAT, INP, CFG]
-resolution: 'surface-scale'
-output_metrics: [sputtering_yield, energy_distribution, flux_profile]
-materials: [tungsten, boron nitride, graphite]
-environment: [plasma chamber, microgravity, cryogenic]
-notes: 'NASA PSI modules simulate plasma-material interactions under extreme conditions.'
