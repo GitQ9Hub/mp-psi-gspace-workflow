@@ -1,0 +1,6 @@
+Study Identifier	PSI-166-Demo
+Study Title	Fictitious Nanocatalyst Study
+Study Description	Simulated ISA-Tab for PSI metadata normalization
+Study Submission Date	2025-09-24
+Study Public Release Date	2025-10-01
+Study Factors	Nanoparticle Size, Surface Treatment

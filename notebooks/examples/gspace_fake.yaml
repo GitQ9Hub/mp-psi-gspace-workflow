@@ -1,7 +1,0 @@
-simulation_id: gs-123456
-system: Quantum Dot Array
-parameters:
-  dot_spacing: 5.0 nm
-  substrate: SiO2
-  temperature: 300 K
-  provenance: simulated_GSpace_demo
