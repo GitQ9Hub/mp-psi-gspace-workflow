@@ -1,0 +1,26 @@
+merged_fields:
+  simulated_PSI_demo_description: Simulated ISA-Tab for PSI metadata normalization
+  simulated_PSI_demo_factors:
+  - Nanoparticle Size
+  - Surface Treatment
+  simulated_PSI_demo_release_date: '2025-10-01'
+  simulated_PSI_demo_study_id: PSI-166-Demo
+  simulated_PSI_demo_submission_date: '2025-09-24'
+  simulated_PSI_demo_title: Fictitious Nanocatalyst Study
+  unknown_source_formula: CuZnO
+  unknown_source_material_id: mp-999999
+  unknown_source_parameters:
+    dot_spacing: 5.0 nm
+    provenance: simulated_GSpace_demo
+    substrate: SiO2
+    temperature: 300 K
+  unknown_source_properties:
+    band_gap: 2.1
+    crystal_system: hexagonal
+    provenance: simulated_MP_demo
+  unknown_source_simulation_id: gs-123456
+  unknown_source_system: Quantum Dot Array
+sources:
+- simulated_PSI_demo
+- unknown_source
+- unknown_source

@@ -1,0 +1,6 @@
+material_id: mp-999999
+formula: CuZnO
+properties:
+  band_gap: 2.1
+  crystal_system: hexagonal
+  provenance: simulated_MP_demo
